@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+div {
+  margin: 0;
+}
+
+hr{
+  height: 2px;
+  width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3B3486;
+  border-width: 5px;
+}
+
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  line-height: 2;
+  /* use rem to ignore parent styling*/
+  font-family: 'Sacramento', cursive;
+  color: #B2BEB5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0 auto auto auto;
+  color: #B2BEB5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #B2BEB5;
+  text-align: center;
+}
+
+.pGrijs{
+  display: block;
+  margin: auto auto 0 auto;
+  color: #B2BEB5;
+
+}
+
+
+.top-container {
+  background-color: #212834;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.circular {
+  border-radius: 100%;
+}
+
+
+.profile{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #048BC2;
+}
+
+.codinggif {
+  border-radius: 100%;
+  width: 25%;
+  height: 25%;
+  /* gebruik Float om9AB3F5 de tekst en afbeelding "naast elkaar" te zetten*/
+}
+
+
+
+.skill-row {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 45%;
+  padding-bottom: 8%;
+  text-align: left;
+  line-height: 2;
+  background-color: #EFEBF0 ;
+}
+
+.kokenimg{
+  width: 25%;
+  float: left;
+  position: relative; /* Declared position allows for location changes */
+  top: -50px; /* Moves the image 2px closer to the top of the page */
+}
+
+.tabelvaardigheden{
+position: relative;
+left: 150px;
+}
+
+.mijnvaardigheden{
+  position: relative;
+  left: 95px;
+}
+
+.Werkervaring {
+  width: 50%;
+  padding-left: 35%;
+  padding-top: 3%;
+  padding-right: 15%;
+  padding-bottom: 8%;
+  text-align: left;
+  line-height: 2;
+  background-color: #048BC2;
+  }
+
+  .werkimg {
+    width: 40%;
+    float: right;
+    position: relative; /* Declared position allows for location changes */
+  }
+
+  .mijnWerkervaring{
+    position: relative;
+    right: 313px;
+  }
+
+.tabelwerkervaring {
+  position: relative;
+  right: 95px;
+}
+
+
+.Cursussen {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 45%;
+  padding-bottom: 8%;
+  text-align: left;
+  line-height: 2;
+  background-color: #EFEBF0 ;
+}
+
+.Opleidingen{
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 45%;
+  padding-bottom: 8%;
+  text-align: left;
+  line-height: 2;
+  background-color: #EFEBF0 ;
+}
+
+.opleidingimg{
+  width: 25%;
+  float: left;
+  position: relative; /* Declared position allows for location changes */
+  bottom: -50px;
+  }
+
+.lijstOpleidingen{
+  position: relative;
+  left: 150px;
+  }
+  
+
+.contact-me {
+  width: 50%;
+  padding-left: 35%;
+  padding-top: 3%;
+  padding-right: 15%;
+  padding-bottom: 8%;
+  text-align: left;
+  line-height: 2;
+  background-color: #048BC2;
+}
+
+.contactimg {
+  width: 40%;
+  float: right;
+  position: relative; /* Declared position allows for location changes */
+  bottom: -100px;
+}
+
+
+.contactOpnemen{
+  position: relative;
+  right: 313px;
+}
+
+
+.messagegif{
+  border-radius: 100%;
+  width: 30%;
+  float: right;
+  margin:100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #A3D8F4;
+  color: #0D4C92;
+  font-size: 10px;
+  text-align: center;
+}
+
+.LinkedIn {
+  color: #0D4C92;
+
+
+}
+
+.Credits {
+  color: #0D4C92;
+}
+
+.top-containercredits {
+  background-color: #7579E7;
+  position: relative;
+}
