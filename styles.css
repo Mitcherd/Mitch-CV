@@ -10,7 +10,6 @@ div {
 
 hr{
   height: 2px;
-  width: 10%;
   border-style: none;
   border-top-style: dotted;
   border-color: #3B3486;
@@ -48,6 +47,27 @@ h3 {
   color: #B2BEB5;
 
 }
+
+/* Navigation bar */
+.navbar {
+  background-color: #048BC2;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
 
 
 .top-container {
@@ -90,7 +110,6 @@ h3 {
 
 
 .skill-row {
-  width: 50%;
   padding-left: 5%;
   padding-top: 3%;
   padding-right: 45%;
@@ -112,13 +131,16 @@ position: relative;
 left: 150px;
 }
 
+.talen{
+  margin-right: 50px;
+}
+
 .mijnvaardigheden{
   position: relative;
-  left: 95px;
+  left: 125px;
 }
 
 .Werkervaring {
-  width: 50%;
   padding-left: 35%;
   padding-top: 3%;
   padding-right: 15%;
@@ -132,11 +154,12 @@ left: 150px;
     width: 40%;
     float: right;
     position: relative; /* Declared position allows for location changes */
+    top: 30px;
   }
 
   .mijnWerkervaring{
     position: relative;
-    right: 313px;
+    right: 280px;
   }
 
 .tabelwerkervaring {
@@ -144,9 +167,12 @@ left: 150px;
   right: 95px;
 }
 
+.datum{
+padding-right: 50px;
+
+}
 
 .Cursussen {
-  width: 50%;
   padding-left: 5%;
   padding-top: 3%;
   padding-right: 45%;
@@ -157,7 +183,6 @@ left: 150px;
 }
 
 .Opleidingen{
-  width: 50%;
   padding-left: 5%;
   padding-top: 3%;
   padding-right: 45%;
@@ -171,17 +196,20 @@ left: 150px;
   width: 25%;
   float: left;
   position: relative; /* Declared position allows for location changes */
-  bottom: -50px;
+  bottom: -30px;
   }
 
 .lijstOpleidingen{
   position: relative;
   left: 150px;
   }
-  
+.MijnOpleidingen{
+  position: relative;
+  left: 35px;
+
+}
 
 .contact-me {
-  width: 50%;
   padding-left: 35%;
   padding-top: 3%;
   padding-right: 15%;
@@ -195,41 +223,43 @@ left: 150px;
   width: 40%;
   float: right;
   position: relative; /* Declared position allows for location changes */
-  bottom: -100px;
+
+}
+
+.contactgegevens{
+  position: relative;
+  right: 100px;
 }
 
 
 .contactOpnemen{
   position: relative;
-  right: 313px;
+  right: 325px;
 }
 
 
-.messagegif{
-  border-radius: 100%;
-  width: 30%;
-  float: right;
-  margin:100px 0 100px 0;
-}
 
 .bottom-container {
-  background-color: #A3D8F4;
-  color: #0D4C92;
+  background-color: #EFEBF0 ;
+  color: #048BC2 ;
   font-size: 10px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .LinkedIn {
-  color: #0D4C92;
+  color: #048BC2 ;
 
 
 }
 
 .Credits {
-  color: #0D4C92;
+  color: #048BC2 ;
 }
 
 .top-containercredits {
   background-color: #7579E7;
   position: relative;
+  color: #B2BEB5;
 }
+
