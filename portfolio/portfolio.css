@@ -1,0 +1,36 @@
+body {
+  background-color: #212834;
+
+}
+
+h3{
+color: #B2BEB5;
+text-align: center;
+padding-top: 20px;
+}
+
+.pGrijs{
+  display: block;
+  margin: 10px auto 0 auto;
+  text-align: center;
+  color: #B2BEB5;
+}
+
+
+.portfolioLijst{
+    margin-top: 50px;
+    text-align: center;
+}
+
+a{
+    color: #B2BEB5;
+
+}
+
+.dobbelspel-foto{
+  width: 30%;
+}
+
+.dagensamen-foto{
+  width: 50%;
+}
