@@ -1,23 +1,21 @@
-function btntog(){
-var relationDate = fdate
-var currentDate = ldate
-// Take number of days
-var relationDays = relationDate.slice(0,2);
-var currentDays = currentDate.slice(0,2);
-var numberofDays = currentDays - relationDays;
+const calculateDaysTogether = function() {
+    // Get the start and end dates from the form inputs
+    const startDate = document.getElementById('start-date').value;
+    const endDate = document.getElementById('end-date').value;
 
-// Turn months into days
-var relationMonths = relationDate.slice(3,5);
-var currentMonths = currentDate.slice(3,5);
-var numberofMonths = (currentMonths - relationMonths) * 30.5;
+    // Convert the dates to JavaScript Date objects
+    const start = new Date(startDate);
+    const end = new Date(endDate);
 
+    // Calculate the difference in milliseconds between the two dates
+    const difference = end - start;
 
-// Turn years into days
-var relationYears = relationDate.slice(6,10);
-var currentYears = currentDate.slice(6,10);
-var numberofYears = (currentYears - relationYears) * 12;
+    // Convert the difference from milliseconds to days
+    const daysTogether = Math.floor(difference / (1000 * 60 * 60 * 24));
 
-var daysTogether = numberofDays + numberofMonths + numberofYears;
+    // Display the result
+    document.getElementById('result').textContent = `You have been together for ${daysTogether} days.`;
+  };
 
-document.querySelector(".resultaat h1").textContent = "Gefeliciteerd, jullie zijn " + daysTogether + " dagen samen";
-}
+  // Add an event listener to the form submission button
+  document.getElementById('submit-button').addEventListener('click', calculateDaysTogether);
