@@ -14,7 +14,7 @@ const calculateDaysTogether = function() {
     const daysTogether = Math.floor(difference / (1000 * 60 * 60 * 24));
 
     // Display the result
-    document.getElementById('result').textContent = `You have been together for ${daysTogether} days.`;
+    document.getElementById('result').textContent = `Gefeliciteerd! Jullie zijn al ${daysTogether} dagen    samen.`;
   };
 
   // Add an event listener to the form submission button
