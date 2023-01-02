@@ -263,18 +263,24 @@ padding-right: 50px;
   color: #B2BEB5;
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 2px solid white;
+  border-radius: 5px;
+
+  background-color: #212834; /* Set a background color */
+  color:#EFEBF0; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
 
-.container .row *,
-.container .row *:before,
-.container .row *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
+
