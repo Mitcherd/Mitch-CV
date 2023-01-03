@@ -19,4 +19,4 @@ function btntog(){
     else if(randomNumber2>randomNumber1){
         document.querySelector(".container h1").textContent ="Speler 2 wint, gefeliciteerd!";
     }
-    }
+}

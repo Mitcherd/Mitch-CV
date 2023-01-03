@@ -1,0 +1,40 @@
+body{
+    background-color: #FFF8EA;
+    color: #594545;
+
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 0 #232931;
+
+}
+
+.dagenSamenCalc{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#fdate{
+    background-color: #fbded8;
+    color: #5c0629;
+
+}
+#ldate{
+    background-color: #fbded8;
+    color: #5c0629;
+
+}
+
+.toggleButton{
+    background-color: #fbded8;
+    color: #5c0629;
+    border: red;
+    position: relative;
+    left: 600px;
+}
+
+p{
+    text-align: center;
+}
